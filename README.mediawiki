@@ -7,6 +7,10 @@ It is not compatible with MediaWiki versions below 1.12.
 * Authors: David M. Sledge, Daniel Werner < danweetz@web.de >
 * License: GNU GPL v2 or higher
 
+=== Differences from mainline Loops ===
+
+The Hydra team added the extension.json entry point and did code quality clean up passes over the hooks file.
+
 
 == Installation ==
 
@@ -19,6 +23,7 @@ MediaWiki 'extensions' directory. Then add the following code to your
 
 You will also want to install the Variables extension to enable the functions
 'loop', 'forargs' and 'fornumargs'.
+
 
 == Contributing ==
 
