@@ -15,7 +15,7 @@ MediaWiki 'extensions' directory. Then add the following code to your
 [[Manual:LocalSettings.php|LocalSettings.php]] file:
 
  # Loops
- require_once( "$IP/extensions/Loops/Loops.php" );
+ wfLoadExtension( 'Loops' );
 
 You will also want to install the Variables extension to enable the functions
 'loop', 'forargs' and 'fornumargs'.
