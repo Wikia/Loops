@@ -1,16 +1,10 @@
 == About ==
 
 The 'Loops' extension Enhances the parser with parser functions to perform loops.
-It is not compatible with MediaWiki versions below 1.12.
 
-* Website: http://www.mediawiki.org/wiki/Extension:Loops
+* Website: https://www.mediawiki.org/wiki/Extension:Loops
 * Authors: David M. Sledge, Daniel Werner < danweetz@web.de >
 * License: GNU GPL v2 or higher
-
-=== Differences from mainline Loops ===
-
-The Hydra team added the extension.json entry point and did code quality clean up passes over the hooks file.
-
 
 == Installation ==
 
@@ -24,8 +18,7 @@ MediaWiki 'extensions' directory. Then add the following code to your
 You will also want to install the Variables extension to enable the functions
 'loop', 'forargs' and 'fornumargs'.
 
-
 == Contributing ==
 
-If you have bug reports or feature requests, please add them to the 'Loops'
-Talk page http://www.mediawiki.org/w/index.php?title=Extension_talk:Loops
+If you have bug reports or feature requests, report it at phabricator. While
+you opening task, add project #Mediawiki-extensions-Loops.
