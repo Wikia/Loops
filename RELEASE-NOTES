@@ -6,7 +6,7 @@
      counter, for example a special-page inclusion. This has been solved now.
    - 'Loops' is working with MW 1.18+ now. Should be compatible down to MW 1.14 or even further.
    - Compatbility to Variables Version 2.0.
-   - Configuration variable '$wgLoopsEnabledFunctions' to enable certain Loops parser functions only.
+   - Configuration variable '$egLoopsEnabledFunctions' to enable certain Loops parser functions only.
    - If 'Variables' extension is not active, '#loop', '#forargs' and '#fornumargs' will be disabled.
    - If loop limit exceeded, the error message will be part of the output wrapped inside a 'div'
      with error class so it can be caught by '#iferror'.
@@ -30,7 +30,7 @@
  The following pre-svn changelog was composed after the extension has been moved into mediawiki.org
  svn. All changes can still be retrace at:
 
- http://www.mediawiki.org/w/index.php?title=Extension:Loops&action=history 
+ https://www.mediawiki.org/w/index.php?title=Extension:Loops&action=history 
 
  * Version 0.3.0 by David M. Sledge
    - '#loop' and '#fornumargs' parser functions were introduced.
